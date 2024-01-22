@@ -36,21 +36,21 @@ while (true) {
   //Agora vamos verificar a classificação do herói de acordo com o nível 
   //informado utilizando a estrutura condicional IF/IF ELSE.
   if (heroXp < 1000) {
-    console.log("O herói " + heroName + " possui " +  heroXp + " pontos de experiência e está no nível: Ferro");
+    console.log("O Herói de nome " + heroName + " está no nível de: Ferro");
     } else if (heroXp <= 2000) {
-      console.log("O herói " + heroName + " possui " + heroXp + " pontos de experiência e está no nível: Bronze");
+      console.log("O Herói de nome " + heroName + " está no nível de: Bronze");
     } else if (heroXp <= 5000) {
-      console.log("O herói " + heroName + " possui " + heroXp + " pontos de experiência e está no nível: Prata");
+      console.log("O Herói de nome " + heroName + " está no nível de: Prata");
     } else if (heroXp <= 7000) {
-      console.log("O herói " + heroName + " possui " + heroXp + " pontos de experiência e está no nível: Ouro");
+      console.log("O Herói de nome " + heroName + " está no nível de: Ouro");
     } else if (heroXp <= 8000) {
-      console.log("O herói " + heroName + " possui " + heroXp + " pontos de experiência e está no nível: Platina");
+      console.log("O Herói de nome " + heroName + " está no nível de: Platina");
     } else if (heroXp <= 9000) {
-      console.log("O herói " + heroName + " possui " + heroXp + " pontos de experiência e está no nível: Ascendente");
+      console.log("O Herói de nome " + heroName + " está no nível de: Ascendente");
     } else if (heroXp <= 10000) {
-      console.log("O herói " + heroName + " possui " + heroXp + " pontos de experiência e está no nível: Imortal");
+      console.log("O Herói de nome " + heroName + " está no nível de: Imortal");
   } else {
-    console.log("O herói " + heroName + " possui " + heroXp + " pontos de experiência e está no nível: Radiante");
+    console.log("O Herói de nome " + heroName + " está no nível de: Radiante");
   }
 
   console.log("\nAperte enter para continuar");
